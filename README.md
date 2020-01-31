@@ -1,1 +1,1 @@
-# FinalyearProject
+# FinalyearProject- Discussed various projects with instructor, and working on proposal for submission by the end of the day. The propasal is for a smart mirror which will display all the features which we want . My proposal will include all the hardware and software information and block diagrams. 
