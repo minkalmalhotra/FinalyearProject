@@ -8,3 +8,4 @@ configure smart mirror
 setting up smart mirror to run on boot.
 commands used to run smart mirror
 we are still working on our components. once obtained we will work on software and coding. 
+raspberry pi will need to connect with screen and internet. Ubintu can be installed in raspberry pi using SD card
