@@ -1,0 +1,25 @@
+/** LED Thread
+ *  Runs concurrently on a separate thread
+ *	Turns on one LED every 20 secs (total 6 LEDs = 2 mins)
+ *	Blinks for another 20 secs before turning all LEDs off
+ *	thread exists whenever app page changes
+ */
+PI_THREAD(ledThread) {
+	piHiPri(50); // average priority
+	// Turn on one LED every 15 seconds
+	// if currentApp changes, turn off LEDs and close thread 
+	//if(ledDelay(1, LED_SWITCH_TIME)) return NULL;
+	// TODO: do we want to wait longer?
+	// How long does the Youtube video take to load/start?
+	digitalWrite(LED1, HIGH);
+	if(ledDelay(2, LED_SWITCH_TIME)) return NULL;
+	digitalWrite(LED2, HIGH);
+	if(ledDelay(3, LED_SWITCH_TIME)) return NULL;
+	digitalWrite(LED3, HIGH);
+	if(ledDelay(4, LED_SWITCH_TIME)) return NULL;
+	digitalWrite(LED4, HIGH);
+	if(ledDelay(5, LED_SWITCH_TIME)) return NULL;
+	digitalWrite(LED5, HIGH);
+	if(ledDelay(6, LED_SWITCH_TIME)) return NULL;
+	digitalWrite(LED6, HIGH);
+	if(ledDelay(1, LED_SWITCH_TIME)) return NULL;
