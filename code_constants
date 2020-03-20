@@ -1,0 +1,18 @@
+/* Constants */
+#define LED_SWITCH_TIME 15000 // in milliseconds
+#define LED_BLINK_TIME 1000 // in milliseconds
+#define LED_DELAY_PERIOD 500 // in milliseconds
+#define PHRES_READ_PERIOD 100 // in milliseconds
+#define BUTTON_POLLING_TIME 5 // in milliseconds
+#define BUTTON_WAIT 25 // in milliseconds
+#define LINK_PAGE_NUMBER_INDEX 46
+#define LINK_USER_ID_INDEX 58
+#define NO_USER -1
+#define GUEST_ID 0
+#define USER1_ID 1
+#define USER2_ID 2
+#define USER3_ID 3
+const char USER1_PASSWORD[] = "LCRLCR";
+const char USER2_PASSWORD[] = "RCLRCL";
+const char USER3_PASSWORD[] = "LLCCRR";
+const char GUEST_PASSWORD[] = "CCCCCC";
