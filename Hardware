@@ -8,3 +8,9 @@ As you can see in the "Win32"-image, I'm using Raspbian Jessie.
 When the write is successful, you just take the SD-card and put it in your Raspberry. Connect to the computer screen, add a mouse and keyboard, and start it.
 In my case, I came directly to the desktop on start. To make the right configurations you need to open the terminal and enter "sudo raspi-config". In there, you are going to do three different things. First, "expand filesystem". Second, choose "Boot Options" and then choose to boot to 
 Desctop GUI with the "pi" user. And third, choose "Internationalisation Options" and change to you own timeszone.
+updating wifi web servers and screen rotations.
+We usually want our mirror to be higher rather then wider, so therefore we will rotate the screen!
+Screen rotation is really simple! Just type "cd /boot" and then "sudo nano config.txt". Now, we are in a textfile.  then add "display_rotate=1" in a new line. This will rotate your screen 90 degrees.
+If you have a Raspberry Pi model B, then you should start scrolling up and look for the line "hdmi_force_hotplug=1" and uncomment that. I don't think this is necessary for a Raspberry Pi 2.
+Save and exit. The screen will be rotated when you restart the Raspberry. 
+In my case, I used "display_rotate=3", since my screen had two USB-ports on the side it would be standing on otherwise. This will rotate the screen 90 degrees in the other direction.
