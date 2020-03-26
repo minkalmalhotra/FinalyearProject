@@ -3,11 +3,11 @@ int rpi_init(); // initialize GPIOs, threads, interrupts, and variables
 void INThandler(int sig); // handles "CTRL-c" exit
 PI_THREAD(ledThread); // Thread for LED timing adn control
 int ledDelay(int led, int delayDuration); // executes timer delay between LEDs turning on
-void turnOffLEDs(); // turns off all LEDs
-void turnOnLEDs(); // turns on all LEDs
-void turnOffPWM(); // turns off all PWM outputs
-void goToWelcomePage();
-void goToMainPage(int user);
+void turnOffLEDs(); //                      *turns off all LEDs*
+void turnOnLEDs(); //                       *turns on all LEDs*
+void turnOffPWM(); //                        *turns off all PWM outputs*
+void goToWelcomePage();                      *go to home page*
+void goToMainPage(int user);                 *go to main page*
 void openURL(string url);
 void increasePasswordIndex();
 void sendPasswordSuccess();
