@@ -1,3 +1,3 @@
-the components including software and harwdware have benn requested to ship. These include Raspberry Pi lastetst version, Acrylic Mirror and the software which we will be adding will be an, Etcher(to burn OS), RaspbianB. 
+the components are Raspberry Pi lastetst version, Acrylic Mirror and the software which we will be adding will be an, Etcher(to burn OS), RaspbianB. 
 the raspberry pi has a boardcom BCM 2837 system on a chip which will include 4ARM cortex A53 1.2 Ghz cores as processor. it does not include inbuilt hard disc insteadit will use micro SD CARD for booting and storage.
 Sd formatter, specofically designed for SD memory crads.its utilities differ  from OS format utilities that are meant to format variety of storage. and SD formatter can work woth number of windows  and MAC OS. The mirror will be of the size of monitor or larger than it in order to fix both of them
