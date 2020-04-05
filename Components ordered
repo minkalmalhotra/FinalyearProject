@@ -1,8 +1,7 @@
-raspberry pi 3, SD card, Display,Card reader, relay card,, Power supply(5V 2Amp) , Transformer.
+raspberry pi 3b plus SD card, Display(monitor in our case),Card reader, Power supply(5V 2Amp) , .
 the working is based on Raspbeery pi.
 The screen can be android tablet or computer monitor.
 the project would collect real world machine data.
-Use of speech recognition.
 Display all necessary information.
 two way mirror 
-it will provide a natural interface location based weather, time,Calender and news 
+it will provide a natural interface location based weather, time,and news 
