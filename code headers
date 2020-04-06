@@ -1,0 +1,15 @@
+#include <wiringPi.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <signal.h>
+#include <math.h>
+#include <string.h>
+#include <string>
+#include <cassert>
+#include <csignal>
+#include <iostream>
+#include <pa_ringbuffer.h>
+#include <pa_util.h>
+#include <portaudio.h>
+#include <vector>
