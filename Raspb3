@@ -1,9 +1,3 @@
-Insert your microSD card into the USB card reader.
-Connect the card reader to your computer.
-Download SD Formatter 5.0.1.
-Double-click on Install SD Card Formatter 5.0.1.mpkg in your downloads folder in your Dock to install SD Formatter 5.0.
-Click the Launchpad icon in your Dock. It looks like a silver rocket ship.
-Find the SD Formatter 5.0.1 app.
-To move between Launchpad windows, click the Next Page icons at the bottom center of the screen, or swipe to the right or left with your trackpad or Magic Mouse.
-Click on the SD Formatter 5.0.1 app to open it. A formatting window will appear on your desktop.
-Under Select Card select your microSD card from the dropdown menu.
+microSD card into the USB card reader.
+Connect the card reader to the computer.
+Downloaded raspbian for raspberry pi and boot up in the SD card. 
