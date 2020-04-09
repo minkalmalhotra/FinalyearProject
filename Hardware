@@ -1,14 +1,9 @@
-the two way acrylic mirror is assembled in the frame, thenm adding the strip of wood at the bottom of the frame to support.
-after this, mounting is done. Depending on our install location  we need to run some sort of power to the mirror.
-the coding will be done in C++ and libraries will be uploaded soon as we are still working on some hardware structure 
-Put your SD-card in the computer and write down the letter (in my case [D:\]). Download Rasbian from raspberrypi.org/downloads. When the ZIP-file is extracted you need Win32 Disk Imager. You can download it at sourceforge.net/projects/win32diskimager/. Install and start it. Klick on the folder icon and browse to the folder where you have the Raspbian files. Make sure that the destination is the SD-card (in my case D:)
-As you can see in the "Win32"-image, I'm using Raspbian Jessie.
-When the write is successful, you just take the SD-card and put it in your Raspberry. Connect to the computer screen, add a mouse and keyboard, and start it.
+THE TWO WAY MIRROR - is assembled in the frame, thenm adding the strip of wood at the bottom of the frame to support.
+MONITOR- which is installed at the back of the mirror.
+RASPBERRY PI WITH SD-CARD- in the computer. Download Rasbian from raspberrypi.org/downloads. When the ZIP-file is extracted you need Win32 Disk Imager. You can download it at sourceforge.net/projects/win32diskimager/. Install and start it. Klick on the folder icon and browse to the folder where you have the Raspbian files. Make sure that the destination is the SD-card (in my case D:)
+When the write is successful, you just take the SD-card and put it in your Raspberry Pi. Connect to the computer screen, add a mouse and keyboard, and start it.
 In my case, I came directly to the desktop on start. To make the right configurations you need to open the terminal and enter "sudo raspi-config". In there, you are going to do three different things. First, "expand filesystem". Second, choose "Boot Options" and then choose to boot to 
-Desktop  GUI with the "pi" user. And third, choose "Internationalisation Options" and change to you own timeszone.
-updating wifi web servers and screen rotations.
-We usually want our mirror to be higher rather then wider, so therefore we will rotate the screen!
-Screen rotation will be installed Using "cd /boot" and then "sudo nano config.txt". Now, we are in a textfile.  then add "display_rotate=1" in a new line. This will rotate your screen 90 degrees.
-If you have a Raspberry Pi model B, then you should start scrolling up and look for the line "hdmi_force_hotplug=1" and uncomment that. I don't think this is necessary for a Raspberry Pi 2.
-Save and exit. The screen will be rotated when you restart the Raspberry. 
-In my case, I used "display_rotate=3", since my screen had two USB-ports on the side it would be standing on otherwise. This will rotate the screen 90 degrees in the other direction.
+Desktop  GUI with the "pi" user.
+HDMI TO VGA CONVERTOR- from raspberry pi to monitor using VGA CABLE
+VGA CABLE
+WODDEN BOARD FOR THE FRAME.
