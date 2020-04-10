@@ -1,5 +1,0 @@
-the components including software and harwdware have benn requested to ship. These include Raspberry Pi lastetst version, Sensor and Acutator,Acrylic Mirror and the software which we will be adding will be an, Etcher(to burn OS), Raspbian, Alexa skill kit,AWS lambda as amazon alexa depens uopn AWS cloud with memory allocation of 3008MB. 
-the raspberry pi has a boardcom BCM 2837 system on a chip which will include 4ARM cortex A53 1.2 Ghz cores as processor. it does not include inbuilt hard disc insteadit will use micro SD CARD for booting and storage.
-Alexa Skill kit allows a developer to create skills, cojointly known as colloquial apps on amazon alexa artificial intelligence assistant.alexa works as input mode where the comand is givin by acutators and voice commands
-these commands are excuted in the raspberry pi using C language.
-Sd formatter, specofically designed for SD memory crads.its utilities differ  from OS format utilities that are meant to format variety of storage. and SD formatter can work woth number of windows  and MAC OS.
