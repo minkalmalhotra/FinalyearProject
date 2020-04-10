@@ -8,15 +8,25 @@ SmartMirrorFinal::SmartMirrorFinal(QWidget *parent) :
 {
     ui->setupUi(this);
     SmartMirrorFinal::showFullScreen();  //shows full screen in the beginning//
-    QTimer *timer = new QTimer(this);    
+    QTimer *timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &SmartMirrorFinal::updateTime);
-    timer->start(1000);                  //for every one minute change//
+    timer->start(1000);
 }
 void SmartMirrorFinal::updateTime()
 {
     QTime time = QTime::currentTime();
-    QString text = time.toString("hh:mm AP"); //hour:minutes//
-    SmartMirrorFinal::~SmartMirrorFinal()
+    QString text = time.toString("hh:mm AP"); //hours:minutes AM/PM
+    if  (time.second() %2 ==0)
+        text[2] = ' ';
+    ui->lable_time->setText(text);
+    if(time.minute()%4==0){
+
+    }
+}
+
+
+
+SmartMirrorFinal::~SmartMirrorFinal()
 {
     delete ui;
 }
