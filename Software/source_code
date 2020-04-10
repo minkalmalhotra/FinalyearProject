@@ -1,0 +1,22 @@
+#include "smartmirrorfinal.h"
+#include "ui_smartmirrorfinal.h"
+#include<QTimer>
+#include<QTime>
+SmartMirrorFinal::SmartMirrorFinal(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::SmartMirrorFinal)
+{
+    ui->setupUi(this);
+    SmartMirrorFinal::showFullScreen();  //shows full screen in the beginning//
+    QTimer *timer = new QTimer(this);    
+    connect(timer, &QTimer::timeout, this, &SmartMirrorFinal::updateTime);
+    timer->start(1000);                  //for every one minute change//
+}
+void SmartMirrorFinal::updateTime()
+{
+    QTime time = QTime::currentTime();
+    QString text = time.toString("hh:mm AP"); //hour:minutes//
+    SmartMirrorFinal::~SmartMirrorFinal()
+{
+    delete ui;
+}
