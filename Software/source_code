@@ -16,12 +16,7 @@ void SmartMirrorFinal::updateTime()
 {
     QTime time = QTime::currentTime();
     QString text = time.toString("hh:mm AP"); //hours:minutes AM/PM
-    if  (time.second() %2 ==0)
-        text[2] = ' ';
-    ui->lable_time->setText(text);
-    if(time.minute()%4==0){
-
-    }
+    
 }
 
 
