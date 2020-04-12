@@ -1,3 +1,6 @@
-microSD card into the USB card reader.
-Connect the card reader to the computer.
-Downloaded raspbian for raspberry pi and boot up in the SD card. 
+--Connect the card reader to the computer.
+Downloaded raspbian --from latest version.
+Unzip compresssed image-- using unzip.
+the disk image to be written on SD card-- using etcher.
+Insert SD card in pi and boot up-- plug in with supply.
+Username name--pi Password-- raspberry
