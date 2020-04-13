@@ -1,0 +1,3 @@
+Header:	#include <QApplication>
+qmake:	QT += widgets
+Inherits:	QGuiApplication
