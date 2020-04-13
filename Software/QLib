@@ -1,0 +1,3 @@
+Header:	#include <QMainWindow>
+qmake:	QT += widgets
+Inherits:	QWidget
