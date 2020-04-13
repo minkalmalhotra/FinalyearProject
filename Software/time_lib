@@ -1,1 +1,2 @@
-Header -- include <QTime>
+Header -- include <QTime> (show current time)
+Header -- include<QTimer> (calling fuctions time to time)
