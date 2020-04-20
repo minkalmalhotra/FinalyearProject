@@ -21,7 +21,7 @@ void SmartMirrorFinal::updateTime()
     ui->lable_time->setText(text);
     if(time.minute()%4==){
       ui->label_msg->setText("you look good");
-  }else if(time()3%==0){
+  }else if(time.minute()3%==0){
       ui->label_msg->setText("Have a  nice day");
 }
 
