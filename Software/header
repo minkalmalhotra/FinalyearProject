@@ -1,0 +1,24 @@
+#ifndef SMARTMIRRORFINAL_H
+#define SMARTMIRRORFINAL_H
+
+#include <QMainWindow>
+
+namespace Ui {
+class SmartMirrorFinal;
+}
+
+class SmartMirrorFinal : public QMainWindow
+{
+   Q_OBJECT
+
+public:
+    explicit SmartMirrorFinal(QWidget *parent = 0);
+    void updateTime();
+
+    ~SmartMirrorFinal();
+
+private:
+    Ui::SmartMirrorFinal *ui;
+};
+
+#endif // SMARTMIRRORFINAL_H
