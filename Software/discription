@@ -1,4 +1,7 @@
 the software used-- to create GUI and cross platform applications is a free open source widget toolkit called Qt.
-written in : C++
-OS : Android, iOs, Linux, macOS , Windows.
-Qt can add-- adding widgets for calender, news, weather and many more tools.
+Software for writing the Code : Qt
+Original author(s): Haavard Nord and Eirik Chambe-Eng
+License: Qt Commercial License; GPL 2.0, 3.0; LGPL 3.0
+Platform: Cross-platform software
+Operating system: Android, iOS, Linux (embedded, Wayland, X11), macOS, Windows,...
+Written in: C++
