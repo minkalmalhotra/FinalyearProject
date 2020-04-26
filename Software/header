@@ -1,8 +1,7 @@
 #ifndef SMARTMIRRORFINAL_H
 #define SMARTMIRRORFINAL_H
-
 #include <QMainWindow>
-
+#include <QMqttClient>
 namespace Ui {
 class SmartMirrorFinal;
 }
@@ -19,6 +18,11 @@ public:
 
 private:
     Ui::SmartMirrorFinal *ui;
+    QMqttClient *m_client;
+private slots
+void showTime();
+void StateChange();
+void updateMessage(const QMqttMessage &msg);
 };
 
 #endif // SMARTMIRRORFINAL_H
